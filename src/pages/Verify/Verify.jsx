@@ -11,17 +11,24 @@ const Verify = () => {
   const { url } = useContext(StoreContext)
   const navigate = useNavigate()
 
+  console.log('Hey Verify Component')
   const verifyPayment = async () => {
-    const repsonse = await axios.post(url + '/api/order/verify', {
-      success,
-      orderId,
-    })
-    let v = '/api/order/verify'
-    console.log({ url, v, success, orderId })
-    if (repsonse.data.success) {
-      console.log('Payment verified')
-      navigate('/myorders')
-    } else {
+    try {
+      let v = '/api/order/verify'
+      console.log({ url, v, success, orderId })
+
+      const response = await axios.post(url + '/api/order/verify', {
+        success,
+        orderId,
+      })
+      if (response.data.success) {
+        console.log('Payment verified')
+        navigate('/myorders')
+      } else {
+        navigate('/')
+      }
+    } catch (error) {
+      console.log(error)
       navigate('/')
     }
   }
