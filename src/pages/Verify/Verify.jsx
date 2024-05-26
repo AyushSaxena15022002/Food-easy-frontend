@@ -16,7 +16,10 @@ const Verify = () => {
       success,
       orderId,
     })
+    let v = '/api/order/verify'
+    console.log({ url, v, success, orderId })
     if (repsonse.data.success) {
+      console.log('Payment verified')
       navigate('/myorders')
     } else {
       navigate('/')
@@ -24,6 +27,7 @@ const Verify = () => {
   }
 
   useEffect(() => {
+    console.log('Checking the flow : Verifying component')
     verifyPayment()
   }, [])
 
