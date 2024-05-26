@@ -11,7 +11,7 @@ const MyOrder = () => {
     const response = await axios.post(
       url + '/api/order/userorders',
       {},
-      { headers: { token } }
+      { headers: { token: token } }
     )
     setData(response.data.data)
   }
