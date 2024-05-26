@@ -1,0 +1,32 @@
+.food-display {
+  margin-top: 30px;
+}
+.food-display h2 {
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 30px;
+  gap: 30px;
+  row-gap: 50px;
+}
+.pagination {
+  /* justify-content: space-between; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.pagination button {
+  background: transparent;
+  font-size: 3rem;
+  color: #49557e;
+  border: 1px solid tomato;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0 10px;
+}
