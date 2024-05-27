@@ -42,6 +42,7 @@ import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrder from './pages/MyOders/MyOrder'
+import ErrorPage from './pages/Error/ErrorPage'
 
 const App = () => {
   const [showLogin, setShowLogin] = useState(false)
@@ -69,7 +70,7 @@ const App = () => {
               <MyOrder />
             </Route>
             <Route path='*'>
-              <Error />
+              <ErrorPage />
             </Route>
           </Switch>
         </Router>
