@@ -50,7 +50,7 @@ const App = () => {
     <>
       {showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
       <div className='app'>
-        <BrowserRouter basename='/food-easy-frontend'>
+        <BrowserRouter>
           <Navbar showLogin={showLogin} setShowLogin={setShowLogin} />
           <Routes>
             <Route path='/' element={<Home />} />
