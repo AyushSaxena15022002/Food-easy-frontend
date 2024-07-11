@@ -1,4 +1,4 @@
-https://food-easy-frontend.vercel.app
+![Screenshot 2024-07-02 015306](https://github.com/user-attachments/assets/dfd0812c-d1f3-4a03-80f9-8a1ab847ad63)https://food-easy-frontend.vercel.app
 
 Food Easy is a modern and dynamic food ordering platform designed to offer a seamless and efficient experience for users. Built using the powerful MERN stack, which includes MongoDB, Express.js, React.js, and Node.js, this website ensures robust performance and scalability. Additionally, Stripe integration is employed to facilitate secure and smooth payment transactions. The frontend and admin panel are both deployed on Vercel, while the backend services are hosted on Render, ensuring reliable and fast access.
 
@@ -16,3 +16,36 @@ Food Easy addresses several technical challenges to deliver a high-quality user 
 2.) Studying and drawing inspiration from other e-commerce and food-ordering websites to incorporate valuable ideas and functionalities. 
 
 By overcoming these challenges, Food Easy provides a reliable and enjoyable platform for both users and administrators.
+
+Home Screen :
+![Screenshot 2024-07-02 014412](https://github.com/user-attachments/assets/a67869e3-48b7-4686-8174-aeb6c90e38c0)
+
+Menu on Home Page :
+![Screenshot 2024-07-02 013828](https://github.com/user-attachments/assets/fc383de5-02a7-4205-a734-be421dad347d)
+
+All Items :
+![Screenshot 2024-07-02 013908](https://github.com/user-attachments/assets/b159dc16-2a83-47f5-8381-b0db96056d4f)
+
+Filtered Items :
+![Screenshot 2024-07-02 014331](https://github.com/user-attachments/assets/a574b94b-f86e-44e4-b9be-6868c99df333)
+
+Cart Page :
+![Screenshot 2024-07-02 014518](https://github.com/user-attachments/assets/0c68aaff-0708-4dc7-a6cf-0f5fe0c696cc)
+
+CheckOut Page :
+![Screenshot 2024-07-02 014555](https://github.com/user-attachments/assets/fe2a6cdd-012c-45bf-823e-07efb4df1ae2)
+
+Payments Page :
+![Screenshot 2024-07-02 014749](https://github.com/user-attachments/assets/3f9faa29-4ac9-4b34-8882-ac83323303f7)
+
+MyOrders Page :
+![Screenshot 2024-07-02 014910](https://github.com/user-attachments/assets/0fa753d1-b98b-43f0-a0d4-314f58fe8fce)
+
+Admin Page Add Item :
+![Screenshot 2024-07-02 015205](https://github.com/user-attachments/assets/63761653-6209-49c1-9428-ce0c692f836f)
+
+Admin Page All Listed Items :
+![Screenshot 2024-07-02 015306](https://github.com/user-attachments/assets/6bf89635-0d00-4a5a-bd30-e443da770cf6)
+
+Admin Page Complete Order Tracking :
+![Screenshot 2024-07-02 015336](https://github.com/user-attachments/assets/82a6da27-d5e4-4eab-b8f1-659fd9368f1d) 
