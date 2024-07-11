@@ -1,4 +1,4 @@
-![Screenshot 2024-07-02 015306](https://github.com/user-attachments/assets/dfd0812c-d1f3-4a03-80f9-8a1ab847ad63)https://food-easy-frontend.vercel.app
+https://food-easy-frontend.vercel.app
 
 Food Easy is a modern and dynamic food ordering platform designed to offer a seamless and efficient experience for users. Built using the powerful MERN stack, which includes MongoDB, Express.js, React.js, and Node.js, this website ensures robust performance and scalability. Additionally, Stripe integration is employed to facilitate secure and smooth payment transactions. The frontend and admin panel are both deployed on Vercel, while the backend services are hosted on Render, ensuring reliable and fast access.
 
